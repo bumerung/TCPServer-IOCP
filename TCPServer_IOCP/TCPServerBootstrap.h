@@ -21,7 +21,7 @@ public:
 	//私有成员函数
 private:
 	//启动CPU*2个线程，返回已启动的线程个数
-	int StartWorkThreadPool();
+	size_t StartWorkThreadPool();
 	//获取AcceptEx_和 GetAcceptExSockaddrs 函数指针
 	bool GetLPFNAcceptExAndGetAcceptSockaddrs();
 	//利用AcceptEx_监听accept请求
